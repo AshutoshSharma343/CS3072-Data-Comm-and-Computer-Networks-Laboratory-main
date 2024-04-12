@@ -1,0 +1,11 @@
+a repeater is a simple device that amplifies and retransmits signals to extend the range of a network. It is commonly used to overcome signal attenuation in both wired and wireless networks, operating at the physical layer of the OSI model.
+A repeater operates at the physical layer. Its job is to regenerate the signal over the same network before the signal becomes too weak or corrupted to extend the length to which the signal can be transmitted over the same network.
+It is used to overcome the limitations of signal attenuation, ensuring that data can be transmitted over longer distances without significant loss of quality.
+
+Limitations:
+
+While repeaters are effective in extending the range of a network, they do not address issues related to network segmentation or collision domains. In modern networks, more sophisticated devices like switches are often preferred for their ability to provide better control and segmentation
+
+Unlike more intelligent devices such as switches or routers, repeaters do not filter or selectively transmit data based on destination addresses. They amplify and retransmit all incoming signals
+
+

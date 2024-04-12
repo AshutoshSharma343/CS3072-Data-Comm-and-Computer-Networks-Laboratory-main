@@ -1,0 +1,29 @@
+A modem is a device that modulates and demodulates signals to enable the transmission of digital data over analog communication channels. It is primarily used to connect a local network to an internet service provider (ISP) or another network.
+Modem stands for Modulator/Demodulator. The modem is defined as a networking device that is used to connect devices connected in the network to the internet.
+It is a device that modulates and demodulates analog signals to enable the transmission of digital data over analog communication channels.
+
+Modulation (Transmitting Data):
+Digital data, which consists of binary 0s and 1s, is converted into analog signals for transmission over analog communication lines, such as telephone lines or cable systems.
+The process of converting digital data into analog signals is called modulation. Various modulation techniques are used, with common ones including Amplitude Modulation (AM), Frequency Modulation (FM), and Phase Modulation (PM).
+
+When analog signals reach their destination, they need to be converted back into digital data that computers and other digital devices can understand.
+The process of converting analog signals back into digital data is called demodulation.
+
+Data Encoding:
+
+Modems often include additional functionality for encoding and decoding data to ensure error-free transmission. This is particularly important in noisy communication channels.
+Error correction and detection algorithms are used to identify and correct errors that may occur during transmission.
+
+Step 1: Data Generation: When data needs to be transmitted it is first generated. Therefore computer system generated the data which is in digital form of 0s and 1s.
+
+Step 2: Modulation: Modulation is defined as a process of converting digital data signals of the computer into analog data signals so that these signals can travel on the internet. The digital data is encoded onto a carrier wave.
+
+Step 3: Transmission: The resultant of modulation that is modulated data is transmitted over the communication line to the modem that is receiving it.
+
+Step 4: Demodulation: Demodulation is defined as a process in which analog data signals from the internet are converted into digital data signals so they can be understood by computer systems. In the process of demodulation the digital data from the carrier wave is decoded.
+
+Step 5: Decoding: The resultant of demodulation that is demodulated data is being sent to the computer systems for their further use. 
+
+
+
+The basic difference between Modem and router is that modem takes internet signals from provider and router receives internet signals from the modem and then this signal is being transmitted to the devices connected in the network.

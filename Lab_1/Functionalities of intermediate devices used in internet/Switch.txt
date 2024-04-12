@@ -1,0 +1,35 @@
+A switch is a multiport bridge with a buffer and a design that can boost its efficiency(a large number of ports imply less traffic) and performance. A switch is a data link layer device. The switch can perform error checking before forwarding data, which makes it very efficient as it does not forward packets that have errors and forward good packets selectively to the correct port only.  In other words, the switch divides the collision domain of hosts, but the broadcast domain remains the same.
+
+Switches are advanced networking devices that operate at the data link layer (Layer 2) and sometimes at the network layer (Layer 3) of the OSI model. Unlike hubs and repeaters, switches are more intelligent and provide enhanced functionality for local area networks (LANs)
+
+    Forwarding Decisions:
+        Switches make forwarding decisions based on the MAC (Media Access Control) addresses of devices. They maintain a table, known as a MAC address table, to associate MAC addresses with the corresponding physical ports.
+
+    Packet Filtering:
+        Switches use packet filtering to selectively forward data to the specific device it is intended for. This is in contrast to hubs, which broadcast data to all connected devices.
+
+    Segmentation and Collision Domains:
+        Switches create individual collision domains for each of their ports, reducing the likelihood of collisions compared to shared collision domains in hubs. This segmentation enhances the overall efficiency of the network.
+
+    MAC Address Learning:
+        Switches dynamically learn MAC addresses by examining the source addresses of incoming frames. This information is used to build and update the MAC address table.
+
+    Store-and-Forward or Cut-Through Switching:
+        Switches can operate in different modes, including store-and-forward and cut-through switching. In store-and-forward mode, the switch receives the entire frame, checks for errors, and then forwards it. In cut-through mode, the switch begins forwarding the frame as soon as it has received the destination address.
+
+    VLAN Support:
+        Many switches support Virtual LANs (VLANs), which allow the network to be logically segmented into multiple broadcast domains. VLANs help in organizing and isolating network traffic based on different criteria.
+
+    Quality of Service (QoS):
+        Switches often support Quality of Service features, allowing prioritization of certain types of traffic. This is crucial for applications that require low latency or high bandwidth.
+
+    Managed vs. Unmanaged Switches:
+        Switches can be either managed or unmanaged. Unmanaged switches operate with default settings and provide basic functionality. Managed switches, on the other hand, allow network administrators to configure and monitor the device, providing more control over the network.
+
+    Used in LANs and Some WANs:
+        Switches are commonly used in local area networks (LANs) to connect devices within a confined area. In some cases, they are also used in wide area networks (WANs) for specific purposes.
+
+    Routers vs. Switches:
+        While switches operate at the data link layer, routers operate at the network layer. Routers are responsible for making forwarding decisions based on IP addresses and connecting different networks. In many networks, switches and routers work together to provide efficient and scalable connectivity.
+
+        switches are intelligent networking devices that operate at the data link layer, providing efficient and selective forwarding of data within a local area network. They offer better performance, segmentation, and control compared to simpler devices like hubs and repeaters.
